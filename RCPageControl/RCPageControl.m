@@ -312,7 +312,7 @@
 }
 
 - (CGFloat)_scaledDotMaxWidth {
-    return _indicatorDotWidth * (1 + _animationScaleFactor);
+    return _indicatorDotWidth * _animationScaleFactor;
 }
 
 #pragma mark  Indicator Animation
