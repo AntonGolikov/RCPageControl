@@ -47,7 +47,7 @@ typedef void (^RCCurrentPageChangedBlock)(RCPageControl *pageControl);
 @property (nonatomic) CGFloat animationSpeed;   // default is 8.f
 @property (nonatomic) CGFloat animationBounciness;  // default is 12.f
 @property (nonatomic) CGFloat animationDuration;    // default is .6f
-@property (nonatomic) NSInteger animationScaleFactor;   // default is 2
+@property (nonatomic) CGFloat animationScaleFactor;   // default is 2
 
 @property (nonatomic) BOOL hidesForSinglePage;  // hide the indicator if there is only one page, default is NO
 @property (nonatomic) BOOL defersCurrentPageDisplay;    // if set, clicking to a new page won't update the currently displayed page until -updateCurrentPageDisplay is called, default is NO
