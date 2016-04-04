@@ -195,7 +195,7 @@
     }
 }
 
-- (void)setAnimationScaleFactor:(NSInteger)animationScaleFactor {
+- (void)setAnimationScaleFactor:(CGFloat)animationScaleFactor {
     if ( _animationScaleFactor != animationScaleFactor) {
         _animationScaleFactor = MAX(RCDefaultIndicatorDotScaleFactorMinValue, animationScaleFactor);
         
